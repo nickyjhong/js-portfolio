@@ -77,3 +77,20 @@ h2 {
   font-weight: 400;
 }
 
+.github:hover {
+  background-image: linear-gradient(#862294, #522377);
+  background-clip: text;
+  color: transparent;
+}
+
+.linkedin:hover {
+  color: #0966C2;
+}
+
+.youtube:hover {
+  color: #FF0000
+}
+
+.arrow {
+  font-size: .8rem;
+}

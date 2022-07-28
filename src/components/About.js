@@ -14,7 +14,13 @@ export default function About() {
           <span className="terminal-text"> 
             {` Hello! I'm Nicole! 
             I am an aspiring software engineer currently attending Fullstack Academy with a graduation date of September 2022.
+            Although I recently left teaching to pursue a career in software development, I still enjoy explaining concepts and engaging in meaningful discussions to deepen 
+            my and my peers' knowledge.
             `} 
+            <br />
+            {`Outside of coding, I am a pet mom to Bean (Shih Tzu and mystery breed mix) and Mancat (legal name is Oreo). 
+            I hope to one day open a cat cafe so I can foster street cats.`}
+
           </span>
         </p>
       </div>
@@ -46,7 +52,7 @@ export default function About() {
       </div>
     )
   }
-  
+
   function misc() {
     return (
       <div>
@@ -55,9 +61,17 @@ export default function About() {
              cd hobbies-interests
           </span>
         </span>
-        <p className="terminal-user">hobbies-interests <span className="terminal-main">(main)</span> $ 
+        <div className="terminal-user">hobbies-interests <span className="terminal-main">(main)</span> $ 
           <span className="terminal-text"> ls</span>
-        </p>
+          <ul className="terminal-interests">
+            <li className="terminal-interest">💪 Bodybuilding</li>
+            <li className="terminal-interest">🧶 Crochet</li>
+            <li className="terminal-interest">🎧 True crime podcasts</li>
+            <li className="terminal-interest">🍽️ Cooking (and eating)</li>
+            <li className="terminal-interest">🦗 Cricut crafts</li>
+            <li className="terminal-interest">💃 Concerts</li>
+          </ul>
+        </div>
       </div>
     )
   }

@@ -45,6 +45,12 @@
     padding: .75rem;
     font-size: .85rem;
   }
+  .project-container {
+    padding: 0 30px 30px 30px;
+  }
+  .portfolio-pic {
+    height: 28vh;
+  }
 }
 
 /* Tablet  */
@@ -122,6 +128,12 @@
     justify-content: center;
   }
   .navLink {
-    padding: 10px 90px;
+    padding: 10px 150px;
+  }
+  .project-container {
+    padding: 0 80px 50px 80px;
+  }
+  .portfolio-pic {
+    height: 35vh;
   }
 }

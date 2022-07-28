@@ -37,13 +37,13 @@
   margin: 0;
 }
 
-.terminal-skills {
+.terminal-skills, .terminal-interests {
   columns: 2;
   padding: 1rem 0 0 0;
   margin: 0;
 }
 
-.terminal-skill {
+.terminal-skill, .terminal-interest {
   list-style-type: none;
   padding: 0 0 .25rem 0;
 }

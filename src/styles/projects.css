@@ -1,3 +1,54 @@
 .projects-container {
   height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-container {
+  padding: 1.5rem;
+}
+
+.portfolio-pic {
+  height: 35vh;
+}
+
+.portfolio-code, .portfolio-demo {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", Helvetica, sans-serif
+}
+
+a {
+  color: inherit;
+}
+
+.portfolio-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem;
+}
+
+.portfolio-btn {
+  border-radius: 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.portfolio-btn:active {
+  transform: translate(2px, 2px);
+}
+
+.portfolio-btn-demo {
+  width: 4.5rem;
 }

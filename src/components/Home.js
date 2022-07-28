@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <div className="info-mini-bio-section">
             <span className="emoji">🍎</span> 
-            <span className="info-detail">Former educator</span>
+            <span className="info-detail">Teacher <span className="arrow">⇨</span> Student</span>
           </div>
           <div className="info-mini-bio-section">
             <span className="emoji resume">📝</span> 
@@ -35,13 +35,13 @@ export default function Home() {
         </div>
         <div className="socials-container">
           <a href={"https://github.com/nickyjhong"}>
-            <i className="fa fa-github fa-social" ></i>
+            <i className="fa fa-github fa-social github" ></i>
           </a>
           <a href={"https://www.linkedin.com/in/nicolejhong/"}>
-            <i className="fa fa-linkedin fa-social" />
+            <i className="fa fa-linkedin-square fa-social linkedin" />
           </a>
           <a href={"https://www.youtube.com/watch?v=4m8kb-hKfTI"}>
-            <i className="fa fa-youtube-play fa-social"></i>
+            <i className="fa fa-youtube-play fa-social youtube"></i>
           </a>
         </div>
       </span>

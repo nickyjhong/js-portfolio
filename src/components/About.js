@@ -30,18 +30,19 @@ export default function About() {
              cd skills-tools
           </span>
         </span>
-        <p className="terminal-user">skills-tools <span className="terminal-main">(main)</span> $ 
+        <div className="terminal-user">skills-tools <span className="terminal-main">(main)</span> $ 
           <span className="terminal-text"> ls</span>
           <ul className="terminal-skills">
             {skills.map(skill => 
               <li 
                 className="terminal-skill"
+                key={skill}
               >
                 {skill}
               </li>
             )}
           </ul>
-        </p>
+        </div>
       </div>
     )
   }

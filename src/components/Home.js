@@ -20,6 +20,10 @@ export default function Home() {
             <span className="info-detail">Former educator</span>
           </div>
           <div className="info-mini-bio-section">
+            <span className="emoji resume">📝</span> 
+            <span className="info-detail resume">See my resume</span>
+          </div>
+          <div className="info-mini-bio-section">
             <span className="emoji email">📧</span> 
             <span 
               className="info-detail email"

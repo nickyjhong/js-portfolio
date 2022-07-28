@@ -37,7 +37,7 @@ export default function Home() {
             <i className="fa fa-linkedin fa-social" />
           </a>
           <a href={"https://www.youtube.com/watch?v=4m8kb-hKfTI"}>
-            <i class="fa fa-youtube-play fa-social"></i>
+            <i className="fa fa-youtube-play fa-social"></i>
           </a>
         </div>
       </span>

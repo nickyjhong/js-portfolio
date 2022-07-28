@@ -4,7 +4,7 @@
 }
 
 .home-container {
-  padding: 90px;
+  padding: 60px;
   overflow: hidden;
 }
 
@@ -22,7 +22,6 @@
   width: 40vh;
   border-radius: 50%;
   border: 7px solid white;
-  box-shadow:  0 .5rem 1rem rgba(19, 19, 18, 0.164)
 }
 
 h1 {

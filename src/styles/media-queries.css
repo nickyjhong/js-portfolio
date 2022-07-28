@@ -1,0 +1,127 @@
+/* Phone  */
+@media only screen and (max-width: 420px) {
+  .home-container {
+    display: block;
+    padding: 1rem;
+  }
+  .info-container {
+    align-items: center;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+  }
+  .profile-pic {
+    width: 25vh;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 2.25rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+  }
+  nav {
+    padding: 30px;
+    justify-content: flex-start;
+  }
+  .navLink {
+    padding: 10px 25px 10px 10px;
+  }
+  .toggle {
+    padding: 0
+  }
+  .profile-pic-container {
+    padding-top: 0;
+  }
+  .terminal-container {
+    padding: 0 0 30px 0;
+  }
+  .about-container {
+    padding: 0 30px 30px 30px;
+  }
+  .terminal-content {
+    padding: .75rem;
+    font-size: .85rem;
+  }
+}
+
+/* Tablet  */
+@media (min-width: 421px) and (max-width: 820px) {
+  .home-container {
+    display: block;
+  }
+  .info-container {
+    align-items: center;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1 {
+    margin-top: 0
+  }
+  .socials-container {
+    gap: 0 5rem;
+  }
+  .navLink {
+    padding: 10px 70px;
+  }
+  nav {
+    padding: 30px;
+    gap: 30px;
+    justify-content: flex-start;
+  }
+  .terminal-container {
+    padding: 0 0 40px 0;
+  }
+  .about-container {
+    padding: 0 40px 40px 40px;
+  }
+  .terminal-content {
+    padding: .75rem;
+    font-size: .85rem;
+  }
+}
+
+@media (min-width: 821px) and (max-width: 1230px) {
+  .home-container {
+    display: block;
+  }
+  .info-container {
+    align-items: center;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1 {
+    margin-top: 0
+  }
+  .socials-container {
+    gap: 0 5rem;
+  }
+  .navLink {
+    padding: 10px 70px;
+  }
+  nav {
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+  }
+  .about-container {
+    padding: 0 40px 40px 40px;
+  }
+}
+
+@media (min-width: 1231px) {
+  nav {
+    padding: 30px;
+    gap: 30px;
+    justify-content: center;
+  }
+  .navLink {
+    padding: 10px 90px;
+  }
+}

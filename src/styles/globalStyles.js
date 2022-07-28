@@ -6,6 +6,9 @@ export const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.text};
     transition: all .5s linear;
   }
+  .profile-pic {
+    box-shadow: ${({ theme }) => theme.picShadow}
+  }
   .fa-social {
     color: ${({ theme }) => theme.iconColor}
   }
@@ -15,6 +18,7 @@ export const GlobalStyles = createGlobalStyle`
   .terminal-content {
     background: ${({ theme }) => theme.termBack};
     color: ${({ theme }) => theme.termText};
+    box-shadow: ${({ theme }) => theme.termShadow}
   }
   .terminal-text, .terminal-command, .terminal-skills {
     color: ${({ theme }) => theme.termText}
@@ -36,7 +40,9 @@ export const lightTheme = {
   termText: 'black',
   termUser: '#5E8B95',
   termMain: '#49617B',
-  termTop: '#D2D2D2'
+  termTop: '#D2D2D2',
+  termShadow: '0 .5rem 1rem #E3E3E3',
+  picShadow: '0 .5rem 1rem rgba(19, 19, 18, 0.164)'
 };
 
 export const darkTheme = {
@@ -48,5 +54,7 @@ export const darkTheme = {
   termText: '#fff',
   termUser: '#44FFA3',
   termMain: '#249D61',
-  termTop: '#8c8c8c'
+  termTop: '#8c8c8c',
+  termShadow: '0 .5rem 1rem rgba(230, 230, 230, 0.2)',
+  picShadow: '0 .5rem 1rem rgba(230, 230, 230, 0.2)',
 };

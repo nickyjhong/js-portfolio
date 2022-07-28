@@ -22,7 +22,7 @@ export default function About() {
   }
 
   function skills() {
-    const skills = ['JavaScript', 'React', 'Redux', 'Express', 'Node.js']
+    const skills = ['JavaScript', 'React', 'Redux', 'Express', 'PostgreSQL' , 'Node.js']
     return (
       <div>
         <span className="terminal-user">{`nicolehong $ `}

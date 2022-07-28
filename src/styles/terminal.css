@@ -1,0 +1,49 @@
+.terminal-container {
+  padding: 30px 90px;
+}
+
+.terminal-top {
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-size: .75rem;
+  padding: .25rem;
+}
+
+.fa {
+  padding-left: 0.5rem;
+  color: none;
+}
+
+.red {
+  color: #FF5E56;
+}
+
+.yellow {
+  color: #FFBC2E;
+}
+
+.green {
+  color: #29C840;
+}
+
+.terminal-content {
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.terminal-user {
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+
+.terminal-skills {
+  columns: 2;
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+
+.terminal-skill {
+  list-style-type: none;
+  padding: 0 0 .25rem 0;
+}

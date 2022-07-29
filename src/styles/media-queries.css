@@ -51,6 +51,9 @@
   .portfolio-pic {
     height: 28vh;
   }
+  .portfolio-btn {
+    font-size: .5rem;
+  }
 }
 
 /* Tablet  */

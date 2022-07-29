@@ -7,12 +7,12 @@ export default function Projects() {
       <span className="project-container">
         <img src={portfolio} className="portfolio-pic" alt="portfolio"/>
         <div className="portfolio-btns">
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-demo">
               <p className="portfolio-code">Demo</p>
             </button>
           </a>
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-code">
               <p className="portfolio-demo">{`</> Source Code`}</p>
             </button>
@@ -23,12 +23,12 @@ export default function Projects() {
       <span className="project-container">
         <img src={portfolio} className="portfolio-pic" alt="portfolio"/>
         <div className="portfolio-btns">
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-demo">
               <p className="portfolio-code">Demo</p>
             </button>
           </a>
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-code">
               <p className="portfolio-demo">{`</> Source Code`}</p>
             </button>
@@ -39,12 +39,12 @@ export default function Projects() {
       <span className="project-container">
         <img src={portfolio} className="portfolio-pic" alt="portfolio"/>
         <div className="portfolio-btns">
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-demo">
               <p className="portfolio-code">Demo</p>
             </button>
           </a>
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-code">
               <p className="portfolio-demo">{`</> Source Code`}</p>
             </button>
@@ -55,12 +55,12 @@ export default function Projects() {
       <span className="project-container">
         <img src={portfolio} className="portfolio-pic" alt="portfolio"/>
         <div className="portfolio-btns">
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-demo">
               <p className="portfolio-code">Demo</p>
             </button>
           </a>
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-code">
               <p className="portfolio-demo">{`</> Source Code`}</p>
             </button>
@@ -71,12 +71,12 @@ export default function Projects() {
       <span className="project-container">
         <img src={portfolio} className="portfolio-pic" alt="portfolio"/>
         <div className="portfolio-btns">
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-demo">
               <p className="portfolio-code">Demo</p>
             </button>
           </a>
-          <a href={'https://github.com/nickyjhong/portfolio-website'}>
+          <a href={'https://github.com/nickyjhong/portfolio'}>
             <button className="portfolio-btn portfolio-btn-code">
               <p className="portfolio-demo">{`</> Source Code`}</p>
             </button>

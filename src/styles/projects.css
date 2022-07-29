@@ -17,7 +17,8 @@
 .portfolio-code, .portfolio-demo {
   display: flex;
   justify-content: center;
-  font-family: "Roboto", Helvetica, sans-serif
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: inherit;
 }
 
 a {
@@ -33,6 +34,7 @@ a {
 }
 
 .portfolio-btn {
+  color: inherit;
   border-radius: 30px;
   cursor: pointer;
   display: inline-block;

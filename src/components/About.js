@@ -26,7 +26,7 @@ export default function About() {
       </div>
     )
   }
-
+  
   function skills() {
     const skills = ['JavaScript', 'React', 'Redux', 'Express', 'PostgreSQL' , 'Node.js']
     return (

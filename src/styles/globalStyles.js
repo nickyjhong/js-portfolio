@@ -41,6 +41,9 @@ export const GlobalStyles = createGlobalStyle`
   .portfolio-btn:active {
     box-shadow: ${({ theme }) => theme.btnShadowActive}
   }
+  .school-container, .job-container {
+    box-shadow: ${({ theme }) => theme.termShadow}
+  }
 `;
 
 export const lightTheme = {
@@ -52,7 +55,7 @@ export const lightTheme = {
   termUser: '#5E8B95',
   termMain: '#49617B',
   termTop: '#D2D2D2',
-  termShadow: '0 .5rem 1rem #E3E3E3',
+  termShadow: '0 .5rem 1rem .5rem #E3E3E3',
   picShadow: '0 .5rem 1rem rgba(19, 19, 18, 0.164)',
   hoverColor: '#827370',
   btnBg: '#F5F0ED',
@@ -71,7 +74,7 @@ export const darkTheme = {
   termUser: '#44FFA3',
   termMain: '#249D61',
   termTop: '#8c8c8c',
-  termShadow: '0 .5rem 1rem rgba(230, 230, 230, 0.1)',
+  termShadow: '0 .5rem 1rem .5rem rgba(230, 230, 230, 0.1)',
   picShadow: '0 .5rem 1rem rgba(230, 230, 230, 0.2)',
   hoverColor: '#A6B2A4',
   btnBg: '#997F6F',

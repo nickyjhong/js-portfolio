@@ -13,7 +13,6 @@ export default function Terminal(props) {
         <div>
           <div className="terminal-command"> {text}</div>
         </div>
-
       </div>
     </div>
   )

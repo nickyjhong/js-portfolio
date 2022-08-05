@@ -3,6 +3,8 @@
 @import 'terminal.css';
 @import 'about.css';
 @import 'projects.css';
+@import 'education.css';
+@import 'work.css';
 @import 'media-queries.css';
 
 html {

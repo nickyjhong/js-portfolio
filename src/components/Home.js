@@ -21,7 +21,11 @@ export default function Home() {
           </div>
           <div className="info-mini-bio-section">
             <span className="emoji resume">📝</span> 
-            <span className="info-detail resume">See my resume</span>
+            <span className="info-detail resume">
+              <a href="https://docs.google.com/document/d/1XkagRKFSiuoJdCwyqPXPPL7QTD3oH23s4sQdPiS7MAk/edit?usp=sharing" className="info-detail resume">
+                See my resume
+              </a>
+            </span>
           </div>
           <div className="info-mini-bio-section">
             <span className="emoji email">📧</span> 

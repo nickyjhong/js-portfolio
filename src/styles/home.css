@@ -75,6 +75,7 @@ h2 {
 
 .resume, .email {
   font-weight: 400;
+  text-decoration: none;
 }
 
 .github:hover {

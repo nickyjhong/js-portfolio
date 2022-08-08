@@ -33,7 +33,6 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.btnBg};
     border: ${({ theme }) => theme.btnBrdr};
     box-shadow: ${({ theme }) => theme.btnShadow};
-
   }
   .portfolio-btn:hover {
     background: ${({ theme }) => theme.btnBgHvr}

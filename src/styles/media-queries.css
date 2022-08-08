@@ -54,6 +54,38 @@
   .portfolio-btn {
     font-size: .5rem;
   }
+  .work-logo-container, .school-logo-container {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .school-logo, .work-logo {
+    height: 6vh;
+    justify-content: center;
+  }
+  .school-container, .job-container {
+    padding: .75rem;
+    margin: 1.25rem 0;
+    flex-direction: column;
+  }
+  .school-name, .work-position {
+    font-size: 1.1rem;
+  }
+  .work-details, .school-details {
+    padding: .25rem;
+    font-size: .75rem;
+  }
+  .work-container, .education-container {
+    padding: 0;
+  }
+  .detail, .school-name, .work-position  {
+    margin: .25rem 0;
+  }
+  .terminal-interests {
+    display: flex;
+    columns: 0;
+    flex-direction: column;
+  }
 }
 
 /* Tablet  */
@@ -85,12 +117,29 @@
   .terminal-container {
     padding: 0 0 40px 0;
   }
-  .about-container {
-    padding: 0 40px 40px 40px;
-  }
   .terminal-content {
     padding: .75rem;
     font-size: .85rem;
+  }
+  .about-container {
+    padding: 0 40px 40px 40px;
+  }
+  .school-logo, .work-logo {
+    height: 8vh;
+  }
+  .school-container, .job-container {
+    padding: .75rem;
+    margin: 1.25rem 0;
+  }
+  .school-name, .work-position {
+    font-size: 1.1rem;
+  }
+  .work-details, .school-details {
+    padding: .75rem;
+    font-size: .75rem;
+  }
+  .work-container, .education-container {
+    padding: 0;
   }
 }
 
@@ -119,8 +168,17 @@
     gap: 30px;
     justify-content: center;
   }
-  .about-container {
+  .about-container, .work-container, .education-container {
     padding: 0 40px 40px 40px;
+  }
+  .school-logo, .work-logo {
+    height: 12vh;
+  }
+  .school-container, .job-container {
+    padding: .75rem;
+  }
+  .work-details, .school-details {
+    padding: .75rem;
   }
 }
 

@@ -83,6 +83,41 @@ export default function About() {
     )
   }
 
+  function work () {
+    const jobs = [
+      {
+        company: 'New York City Department of Education',
+        position: 'Special Education Teacher',
+        dates: 'September 2019 - March 2022',
+        logo: '/nycdoe.png',
+        location: 'New York, NY',
+        description: '4th & 5th grade special education teacher'
+      }
+    ]
+    return (
+      <div className="about-work-container">
+        <h2 className="work-header">Professional Experience:</h2>
+        {jobs.map(job => {
+          return (
+            <div className="job-container" key={job.dates}>
+              <div className="work-logo-container">
+                <img className="work-logo" src={job.logo} alt={job.company} />
+              </div>
+
+              <div className="work-details">
+                <p className="work-position "><span className="detail-label"> </span> {job.position}</p>
+                <p className="work-name detail">{job.company}</p>
+                <p className="work-dates detail"><span className="detail-label">Dates: </span> {job.dates}</p>
+                <p className="work-location detail"><span className="detail-label">Location: </span> {job.location}</p>
+                <p className="work-description detail"><span className="detail-label">Description: </span> {job.description}</p>
+              </div>
+            </div>
+          )
+        })}
+      </div>
+    )
+  }
+
   function education() {
     const ed = [
       {
@@ -113,7 +148,7 @@ export default function About() {
         <h2 className="education-header">Education:</h2>
         {ed.map(school => {
           return (
-            <div className="school-container">
+            <div className="school-container" key={school.date}>
               <div className="school-logo-container">
                 <img className="school-logo" src={school.logo} alt={school.school} />
               </div>
@@ -132,40 +167,7 @@ export default function About() {
     )
   }
 
-  function work () {
-    const jobs = [
-      {
-        company: 'New York City Department of Education',
-        position: 'Special Education Teacher',
-        dates: 'September 2019 - March 2022',
-        logo: '/nycdoe.png',
-        location: 'New York, NY',
-        description: '4th & 5th grade special education teacher'
-      }
-    ]
-    return (
-      <div className="about-work-container">
-        <h2 className="work-header">Professional Experience:</h2>
-        {jobs.map(job => {
-          return (
-            <div className="job-container">
-              <div className="work-logo-container">
-                <img className="work-logo" src={job.logo} alt={job.company} />
-              </div>
 
-              <div className="work-details">
-                <p className="work-position "><span className="detail-label"> </span> {job.position}</p>
-                <p className="work-name detail">{job.company}</p>
-                <p className="work-dates detail"><span className="detail-label">Dates: </span> {job.dates}</p>
-                <p className="work-location detail"><span className="detail-label">Location: </span> {job.location}</p>
-                <p className="work-description detail"><span className="detail-label">Description: </span> {job.description}</p>
-              </div>
-            </div>
-          )
-        })}
-      </div>
-    )
-  }
   return (
     <div className='about-container'>
       <Terminal text={aboutMe()}/>

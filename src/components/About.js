@@ -9,7 +9,7 @@ export default function About() {
       <div>
         <span className="terminal-user">{`nicolehong $ `}
           <span className="terminal-command">
-             cat aboutnicole
+            cat aboutnicole
           </span>
         </span>
         <p className="terminal-user">aboutnicole <span className="terminal-main">(main)</span> $ 
@@ -61,7 +61,7 @@ export default function About() {
       <div>
         <span className="terminal-user">{`nicolehong $ `}
           <span className="terminal-command">
-             cd hobbies-interests
+            cd hobbies-interests
           </span>
         </span>
         <div className="terminal-user">hobbies-interests <span className="terminal-main">(main)</span> $ 

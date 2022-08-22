@@ -16,6 +16,19 @@ const projects = [
     demo: '#',
     repo: 'https://github.com/nickyjhong/baked'
   }
+  // , {
+  //   title: 'lift the world',
+  //   pic: baked,
+  //   website: 'https://lift-the-world.herokuapp.com',
+  //   demo: '#',
+  //   repo: 'https://github.com/2206-capstone-lifters/lift-the-world'
+  // }, {
+  //   title: 'delish',
+  //   pic: baked,
+  //   website: 'https://delish-cookbook.herokuapp.com',
+  //   demo: '#',
+  //   repo: 'https://github.com/nickyjhong/delish'
+  // }
 ]
 
 export default function Projects() {

@@ -76,9 +76,9 @@ export const darkTheme = {
   termShadow: '0 .5rem 1rem .5rem rgba(230, 230, 230, 0.1)',
   picShadow: '0 .5rem 1rem rgba(230, 230, 230, 0.2)',
   hoverColor: '#A6B2A4',
-  btnBg: '#997F6F',
+  btnBg: '#B6777E',
   btnBrdr: '1px solid #E2E1D8',
   btnShadow: '#E2E1D8 4px 4px 0 0',
   btnShadowActive: '#E2E1D8 2px 2px 0 0',
-  btnBgHvr: '#8F6F58',
+  btnBgHvr: '#9D5E66',
 };

@@ -30,12 +30,12 @@ export default function About() {
   }
   
   function skills() {
-    const skills = ['JavaScript', 'React', 'Redux', 'Express', 'PostgreSQL' , 'Node.js']
+    const skills = ['JavaScript', 'React', 'Redux', 'Express', 'PostgreSQL' , 'Sequelize', 'Node.js', 'HTML', 'CSS', 'Progressive Web Applications']
     return (
       <div>
         <span className="terminal-user">{`nicolehong $ `}
           <span className="terminal-command">
-             cd skills-tools
+            cd skills-tools
           </span>
         </span>
         <div className="terminal-user">skills-tools <span className="terminal-main">(main)</span> $ 
@@ -126,7 +126,7 @@ export default function About() {
         major: 'N/A',
         logo: '/fullstack.png',
         location: 'New York, NY',
-        date: 'September 2022'
+        date: 'September 2022 (Cohort 2206)'
       }, {
         degree: 'M.A. in Teaching of English',
         school: 'Teachers College, Columbia University',

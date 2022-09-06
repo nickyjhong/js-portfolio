@@ -46,13 +46,27 @@
     font-size: .85rem;
   }
   .project-container {
-    padding: 0 30px 30px 30px;
+    padding: 0 .5rem .5rem .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .portfolio-pic {
     height: 28vh;
   }
+  .portfolio-pic-container {
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+  }
   .portfolio-btn {
     font-size: .5rem;
+  }
+  .portfolio-btns {
+    width: 15rem;
   }
   .work-logo-container, .school-logo-container {
     padding: 10px;
@@ -141,6 +155,11 @@
   .work-container, .education-container {
     padding: 0;
   }
+  .portfolio-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 821px) and (max-width: 1230px) {
@@ -180,6 +199,11 @@
   .work-details, .school-details {
     padding: .75rem;
   }
+  .portfolio-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1231px) {
@@ -193,5 +217,10 @@
   }
   .portfolio-pic {
     height: 35vh;
+  }
+  .portfolio-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

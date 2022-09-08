@@ -24,7 +24,7 @@ const projects = [
     description: "An e-commerce website that allows guest, returning customers, and admin to buy baked goods. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS.",
     pic: baked,
     website: "https://baked-by-fs.herokuapp.com",
-    demo: "#",
+    demo: "https://youtu.be/ro3kw9VW-cI",
     repo: "https://github.com/nickyjhong/baked",
   }, {
     title: "Portfolio",
@@ -35,7 +35,7 @@ const projects = [
     repo: "https://github.com/nickyjhong/portfolio",
   }, {
     title: "The Margaret Hamilton Academy of JavaScript - School CRM",
-    description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM that tracks student information and their associated campuses. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS. Source code is not publicly available but can be shown upon request",
+    description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM that tracks student information and their associated campuses. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS. Source code is not publicly available but can be shown upon request.",
     pic: jpfp,
     demo: "https://youtu.be/4m8kb-hKfTI",
     repo: "https://github.com/nickyjhong/2206-fsa-rm-web-ft-jpfp"

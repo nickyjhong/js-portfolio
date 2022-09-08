@@ -46,10 +46,11 @@
     font-size: .85rem;
   }
   .project-container {
-    padding: 0 .5rem .5rem .5rem;
+    padding: 0 .5rem 2rem .5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
   .portfolio-pic {
     height: 28vh;
@@ -99,6 +100,23 @@
     display: flex;
     columns: 0;
     flex-direction: column;
+  }
+  .portfolio-info-container {
+    align-items: center;
+    width: 15rem;
+  }
+  .portfolio-title-container {
+    text-align: center;
+  }
+  .portfolio-description {
+    font-size: .7rem;
+  }
+  .portfolio-title {
+    margin: .5rem;
+    font-size: 1.25rem;
+  }
+  .projects-container {
+    margin-bottom: 2rem;
   }
 }
 
@@ -160,6 +178,15 @@
     align-items: center;
     justify-content: center;
   }
+  .project-container {
+    flex-direction: column
+  }
+  .portfolio-info-container {
+    align-items: center;
+  }
+  .portfolio-title-container {
+    text-align: center;
+  }
 }
 
 @media (min-width: 821px) and (max-width: 1230px) {
@@ -204,6 +231,28 @@
     align-items: center;
     justify-content: center;
   }
+  .portfolio-info-container {
+    align-items: center;
+  }
+  .portfolio-title-container {
+    text-align: center;
+  }
+  .portfolio-description {
+    font-size: .7rem;
+    width: 22rem;
+  }
+  .portfolio-title {
+    margin: .5rem;
+    font-size: 1.25rem;
+  }
+  .projects-container {
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+  .project-container {
+    flex-direction: column;
+  }
+
 }
 
 @media (min-width: 1231px) {

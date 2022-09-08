@@ -8,10 +8,19 @@
 
 .project-container {
   padding: 1.5rem;
+  display: flex;
 }
 
 .portfolio-pic {
   height: 35vh;
+}
+
+.portfolio-pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25rem;
 }
 
 .portfolio-code, .portfolio-demo {
@@ -31,7 +40,6 @@ a {
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  padding: 1.25rem;
 }
 
 .portfolio-btn {
@@ -54,4 +62,24 @@ a {
 
 .portfolio-btn-demo {
   width: 4.5rem;
+}
+
+.portfolio-title {
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: inherit;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.portfolio-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 25rem;
+}
+
+.portfolio-description {
+  font-size: .9rem;
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: inherit;
 }

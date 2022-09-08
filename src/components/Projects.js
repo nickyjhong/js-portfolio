@@ -2,6 +2,7 @@ import React from "react";
 import portfolio from "../images/portfolio-pic.png";
 import baked from "../images/baked-pic.png";
 import lift from "../images/lift-the-world.png";
+import jpfp from "../images/jpfp.png"
 
 const projects = [
   // {
@@ -32,6 +33,12 @@ const projects = [
     website: "https://nicolehong.dev",
     demo: "#",
     repo: "https://github.com/nickyjhong/portfolio",
+  }, {
+    title: "The Margaret Hamilton Academy of JavaScript - School CRM",
+    description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM that tracks student information and their associated campuses. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS. Source code is not publicly available but can be shown upon request",
+    pic: jpfp,
+    demo: "https://youtu.be/4m8kb-hKfTI",
+    repo: "https://github.com/nickyjhong/2206-fsa-rm-web-ft-jpfp"
   }
 ];
 

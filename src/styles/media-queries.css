@@ -244,6 +244,7 @@
   .portfolio-title {
     margin: .5rem;
     font-size: 1.25rem;
+    width: 20rem;
   }
   .projects-container {
     margin-bottom: 2rem;
@@ -252,7 +253,6 @@
   .project-container {
     flex-direction: column;
   }
-
 }
 
 @media (min-width: 1231px) {

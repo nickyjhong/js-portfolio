@@ -15,9 +15,9 @@ export default function About() {
         <p className="terminal-user">aboutnicole <span className="terminal-main">(main)</span> $ 
           <span className="terminal-text"> 
             {` Hello! I'm Nicole! 
-            I am an aspiring software engineer currently attending Fullstack Academy with a graduation date of September 2022.
+            I am an aspiring software engineer who graduated from Fullstack Academy in September 2022.
             Although I recently left teaching to pursue a career in software development, I still enjoy explaining concepts and engaging in meaningful discussions to deepen 
-            my and my peers' knowledge.
+            my and my peers' knowledge. I am a lifelong learner who hopes to spread that same love of learning to those around me!
             `} 
             <br />
             {`Outside of coding, I am a pet mom to Bean (Shih Tzu and mystery breed mix) and Mancat (legal name is Oreo). 

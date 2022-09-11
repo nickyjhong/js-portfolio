@@ -121,9 +121,11 @@ export default function About() {
   function education() {
     const ed = [
       {
-        degree: 'Fullstack Software Engineer',
+        // degree: 'Fullstack Software Engineer',
         school: 'Fullstack Academy',
-        major: 'N/A',
+        // major: 'N/A',
+        certificate: 'Full-stack web development bootcamp',
+        language: 'JavaScript, PERN Stack',
         logo: '/fullstack.png',
         location: 'New York, NY',
         date: 'September 2022 (Cohort 2206)'
@@ -155,8 +157,17 @@ export default function About() {
 
               <div className="school-details">
                 <p className="school-name">{school.school}</p>
-                <p className="school-degree detail"><span className="detail-label">Degree: </span> {school.degree}</p>
-                <p className="school-major detail"><span className="detail-label">Major: </span> {school.major}</p>
+                {school.degree ? (
+                  <>
+                    <p className="school-degree detail"><span className="detail-label">Degree: </span> {school.degree}</p>
+                    <p className="school-major detail"><span className="detail-label">Major: </span> {school.major}</p>
+                  </>
+                ) : (
+                  <>
+                    <p className="school-certificate detail"><span className="detail-label">Certificate: </span> {school.certificate}</p>
+                    <p className="school-language detail"><span className="detail-label">Language and Stack: </span> {school.language}</p>
+                  </>
+                )}
                 <p className="school-date detail"><span className="detail-label">Graduation: </span> {school.date}</p>
                 <p className="school-location detail"><span className="detail-label">Location: </span> {school.location}</p>
               </div>

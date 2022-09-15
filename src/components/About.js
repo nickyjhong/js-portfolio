@@ -125,9 +125,7 @@ export default function About() {
   function education() {
     const ed = [
       {
-        // degree: 'Fullstack Software Engineer',
         school: 'Fullstack Academy',
-        // major: 'N/A',
         certificate: 'Full-stack web development bootcamp',
         language: 'JavaScript, PERN Stack',
         logo: fullstack,

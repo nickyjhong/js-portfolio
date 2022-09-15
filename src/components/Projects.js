@@ -11,7 +11,7 @@ const projects = [
     description: "A CRM system to manage dry-cleaning invoices. This was made to help my parents and my brother track invoices sent to companies. This project was built using Firebase, Firestore, React, JavaScript, and Bootstrap.",
     pic: sfc,
     website: "https://sutphin-family-cleaners.web.app",
-    demo: "https://youtu.be/XwCSzMcKkxw",
+    demo: "https://youtu.be/41xnKwh2Bco",
     repo: "https://github.com/nickyjhong/sutphin-family-cleaners"
   }, {
     title: "Lift the World",

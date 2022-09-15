@@ -22,7 +22,7 @@ export default function Home() {
           <div className="info-mini-bio-section">
             <span className="emoji resume">📝</span> 
             <span className="info-detail resume">
-              <a href="https://drive.google.com/file/d/1-r_L3fWbr_4_8eiBHZZYawghARpGXc4J/view?usp=sharing" className="info-detail resume">
+              <a href="https://drive.google.com/file/d/1zcswA5ddI5blWGTjxoI2tR77YawomrSl/view?usp=sharing" className="info-detail resume">
                 See my resume
               </a>
             </span>

@@ -32,7 +32,7 @@ const projects = [
     description: "My portfolio that showcases my journey as a software engineer. This project was built using Create React App.",
     pic: portfolio,
     website: "https://nicolehong.dev",
-    demo: "#",
+    demo: "https://youtu.be/aQ9GMtwl7SE",
     repo: "https://github.com/nickyjhong/portfolio",
   }, {
     title: "The Margaret Hamilton Academy of JavaScript - School CRM",

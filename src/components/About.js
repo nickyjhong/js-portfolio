@@ -2,6 +2,10 @@ import React from 'react'
 import Terminal from './Terminal'
 import Education from './Education'
 import Work from './Work'
+import nycdoe from '../images/nycdoe.png'
+import tc from '../images/tc.png'
+import geneseo from '../images/geneseo.png'
+import fullstack from '../images/fullstack.png'
 
 export default function About() {
   function aboutMe() {
@@ -30,7 +34,7 @@ export default function About() {
   }
   
   function skills() {
-    const skills = ['JavaScript', 'React', 'Redux', 'Express', 'PostgreSQL' , 'Sequelize', 'Node.js', 'HTML', 'CSS', 'Progressive Web Applications']
+    const skills = ['JavaScript', 'React', 'Redux', 'Express', 'PostgreSQL' , 'Sequelize', 'Node.js', 'HTML', 'CSS', 'Progressive Web Applications', 'Firebase', 'Bootstrap']
     return (
       <div>
         <span className="terminal-user">{`nicolehong $ `}
@@ -89,7 +93,7 @@ export default function About() {
         company: 'New York City Department of Education',
         position: 'Special Education Teacher',
         dates: 'September 2019 - March 2022',
-        logo: '/nycdoe.png',
+        logo: nycdoe,
         location: 'New York, NY',
         description: '4th & 5th grade special education teacher'
       }
@@ -126,21 +130,21 @@ export default function About() {
         // major: 'N/A',
         certificate: 'Full-stack web development bootcamp',
         language: 'JavaScript, PERN Stack',
-        logo: '/fullstack.png',
+        logo: fullstack,
         location: 'New York, NY',
         date: 'September 2022 (Cohort 2206)'
       }, {
         degree: 'M.A. in Teaching of English',
         school: 'Teachers College, Columbia University',
         major: 'English Education, Grades 7-12',
-        logo: '/tc.png',
+        logo: tc,
         location: 'New York, NY',
         date: 'May 2019'
       }, {
         degree: 'B.S. in Education',
         school: "SUNY Geneseo",
         major: 'Childhood with Special Education, Grades 1-6',
-        logo: '/geneseo.png',
+        logo: geneseo,
         location: 'Geneseo, NY',
         date: 'May 2017'
       }

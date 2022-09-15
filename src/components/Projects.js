@@ -3,16 +3,17 @@ import portfolio from "../images/portfolio-pic.png";
 import baked from "../images/baked-pic.png";
 import lift from "../images/lift-the-world.png";
 import jpfp from "../images/jpfp.png"
+import sfc from '../images/sfc.png'
 
 const projects = [
-  // {
-  //   title: 'delish',
-  //   pic: baked,
-  //   website: 'https://delish-cookbook.herokuapp.com',
-  //   demo: '#',
-  //   repo: 'https://github.com/nickyjhong/delish'
-  // }
   {
+    title: "Sutphin Family Cleaners",
+    description: "A CRM system to manage dry-cleaning invoices. This was made to help my parents and my brother track invoices sent to companies. This project was built using Firebase, Firestore, React, JavaScript, and Bootstrap.",
+    pic: sfc,
+    website: "https://sutphin-family-cleaners.web.app",
+    demo: "https://youtu.be/XwCSzMcKkxw",
+    repo: "https://github.com/nickyjhong/sutphin-family-cleaners"
+  }, {
     title: "Lift the World",
     description: "A fitness tracking Progressive Web Application (PWA) that allows users to track how much weight they've lifted in a session, compare it to real-world items, level up, and compete for a spot on the leaderboard. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, CSS, and PWA.",
     pic: lift,
@@ -35,7 +36,7 @@ const projects = [
     repo: "https://github.com/nickyjhong/portfolio",
   }, {
     title: "The Margaret Hamilton Academy of JavaScript - School CRM",
-    description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM that tracks student information and their associated campuses. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS. Source code is not publicly available but can be shown upon request.",
+    description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM tool that tracks student information and their associated campuses. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS. Source code is not publicly available but can be shown upon request.",
     pic: jpfp,
     demo: "https://youtu.be/4m8kb-hKfTI",
     repo: "https://github.com/nickyjhong/2206-fsa-rm-web-ft-jpfp"

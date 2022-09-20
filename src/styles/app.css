@@ -5,6 +5,7 @@
 @import 'projects.css';
 @import 'education.css';
 @import 'work.css';
+@import 'blog.css';
 @import 'media-queries.css';
 
 html {
@@ -28,7 +29,7 @@ nav {
   box-sizing: border-box;
 }
 
-.navLink {
+.nav-link {
   color: inherit;
   font-family: "Roboto", Helvetica, sans-serif;
   font-weight: 400;
@@ -36,7 +37,7 @@ nav {
   text-align: center;
 }
 
-.navLink:hover, .navLink:focus {
+.nav-link:hover, .nav-link:focus {
   color: #B6ABA5;
 }
 

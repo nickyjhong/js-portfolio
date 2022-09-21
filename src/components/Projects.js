@@ -6,14 +6,6 @@ import jpfp from "../images/jpfp.png"
 import sfc from '../images/sfc.png'
 
 const projects = [
-  // {
-  //   title: "Mind Palace",
-  //   description: "Welcome to my coding mind palace - a place to store my blogs and vlogs. Follow me through this journey of lifelong learning. This was made to help my parents and my brother track invoices sent to companies. This project was built using Firebase, Firestore, React, JavaScript, and Bootstrap.",
-  //   pic: mind-palace,
-  //   website: "",
-  //   demo: "",
-  //   repo: "https://github.com/nickyjhong/mind-palace"
-  // },
   {
     title: "Sutphin Family Cleaners",
     description: "A CRM system to manage dry-cleaning invoices. This was made to help my parents and my brother track invoices sent to companies. This project was built using Firebase, Firestore, React, JavaScript, and Bootstrap.",

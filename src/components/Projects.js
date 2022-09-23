@@ -19,9 +19,9 @@ import redux from '../images/redux.png'
 const projects = [
   {
     title: "Sutphin Family Cleaners",
-    description: "A CRM system to manage dry-cleaning invoices. This was made to help my parents and my brother track invoices sent to companies. This project was built using Firebase, Firestore, React, JavaScript, and Bootstrap.",
+    description: "A CRM system to manage dry-cleaning invoices. This was made to help my parents and my brother track invoices sent to companies. This project was built using Firebase, Firestore, React, JavaScript, HTML, CSS, and Bootstrap.",
     pic: sfc,
-    icons: [firebase, firestore, js, react, bootstrap, css],
+    icons: [firebase, firestore, js, react, html, css, bootstrap],
     website: "https://sutphin-family-cleaners.web.app",
     demo: "https://youtu.be/41xnKwh2Bco",
     repo: "https://github.com/nickyjhong/sutphin-family-cleaners"

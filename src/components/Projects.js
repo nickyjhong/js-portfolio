@@ -13,47 +13,48 @@ import firestore from '../images/firestore.png'
 import nodejs from '../images/nodejs.png'
 import js from '../images/js.png'
 import postgresql from '../images/postgresql.png'
+import sequelize from '../images/sequelize.png'
 import react from '../images/react.png'
 import redux from '../images/redux.png'
 
 const projects = [
   {
     title: "Sutphin Family Cleaners",
-    description: "A CRM system to manage dry-cleaning invoices. This was made to help my parents and my brother track invoices sent to companies. This project was built using Firebase, Firestore, React, JavaScript, HTML, CSS, and Bootstrap.",
+    description: "A CRM system to manage dry-cleaning invoices. This was made to help my parents and my brother track invoices sent to companies. This project was built using JavaScript, React, Firebase, Firestore, HTML, CSS, and Bootstrap.",
     pic: sfc,
-    icons: [firebase, firestore, js, react, html, css, bootstrap],
+    icons: [js, react, firebase, firestore, html, css, bootstrap],
     website: "https://sutphin-family-cleaners.web.app",
     demo: "https://youtu.be/41xnKwh2Bco",
     repo: "https://github.com/nickyjhong/sutphin-family-cleaners"
   }, {
     title: "Lift the World",
-    description: "A fitness tracking Progressive Web Application (PWA) that allows users to track how much weight they've lifted in a session, compare it to real-world items, level up, and compete for a spot on the leaderboard. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, CSS, and PWA.",
+    description: "A fitness tracking Progressive Web Application (PWA) that allows users to track how much weight they've lifted in a session, compare it to real-world items, level up, and compete for a spot on the leaderboard. This project was built using JavaScript, React, Redux, Express, Node.js, PostgreSQL, Sequelize, HTML, CSS, and PWA.",
     pic: lift,
-    icons: [react, redux, postgresql, nodejs, express, js, html, css],
+    icons: [js, react, redux, express, nodejs, postgresql, sequelize, html, css],
     website: "https://lift-the-world.herokuapp.com",
     demo: "https://youtu.be/uSbtmAf63vo",
     repo: "https://github.com/2206-capstone-lifters/lift-the-world",
   }, {
     title: "Baked by Fullstack",
-    description: "An e-commerce website that allows guest, returning customers, and admin to buy baked goods. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS.",
+    description: "An e-commerce website that allows guest, returning customers, and admin to buy baked goods. This project was built using JavaScript, React, Redux, Express, Node.js, PostgreSQL, Sequelize, HTML, and CSS.",
     pic: baked,
-    icons: [react, redux, postgresql, nodejs, express, js, html, css],
+    icons: [js, react, redux, express, nodejs, postgresql, sequelize, html, css],
     website: "https://baked-by-fs.herokuapp.com",
     demo: "https://youtu.be/ro3kw9VW-cI",
     repo: "https://github.com/nickyjhong/baked",
   }, {
     title: "Portfolio",
-    description: "My portfolio that showcases my journey as a software engineer. This project was built using React, JavaScript, HTML, and CSS.",
+    description: "My portfolio that showcases my journey as a software engineer. This project was built using  JavaScript, React, HTML, and CSS.",
     pic: portfolio,
-    icons: [react, js, html,css],
+    icons: [js, react, html,css],
     website: "https://nicolehong.dev",
     demo: "https://youtu.be/aQ9GMtwl7SE",
     repo: "https://github.com/nickyjhong/portfolio",
   }, {
     title: "The Margaret Hamilton Academy of JavaScript - School CRM",
-    description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM tool that tracks student information and their associated campuses. This project was built using React, Redux, PostgreSQL, Sequelize, Node.js, Express, JavaScript, HTML, and CSS. Source code is not publicly available but can be shown upon request.",
+    description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM tool that tracks student information and their associated campuses. This project was built using JavaScript, React, Redux, Express, Node.js, PostgreSQL, Sequelize, HTML, and CSS. Source code is not publicly available but can be shown upon request.",
     pic: jpfp,
-    icons: [react, redux, postgresql, nodejs, express, js, html, css],
+    icons: [js, react, redux, express, nodejs, postgresql, sequelize, html, css],
     demo: "https://youtu.be/4m8kb-hKfTI",
     repo: "https://github.com/nickyjhong/2206-fsa-rm-web-ft-jpfp"
   }

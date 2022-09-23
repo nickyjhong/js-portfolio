@@ -8,6 +8,7 @@ import firebase from '../images/firebase.png'
 import firestore from '../images/firestore.png'
 import nodejs from '../images/nodejs.png'
 import postgresql from '../images/postgresql.png'
+import sequelize from '../images/sequelize.png'
 import react from '../images/react.png'
 import redux from '../images/redux.png'
 import js from '../images/js.png'
@@ -30,6 +31,7 @@ export default function Home() {
           <img src={firebase} alt="firebase" className="info-icon"/>
           <img src={firestore} alt="firestore" className="info-icon"/>
           <img src={postgresql} alt="postgresql" className="info-icon"/>
+          <img src={sequelize} alt="sequelize" className="info-icon"/>
           <img src={html} alt="html" className="info-icon"/>
           <img src={css} alt="css" className="info-icon"/>
           <img src={bootstrap} alt="bootstrap" className="info-icon"/>

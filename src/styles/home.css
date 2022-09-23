@@ -102,7 +102,7 @@ h2 {
 
 .info-icons {
   display: flex;
-  margin: .25rem 0;
+  margin: .75rem 0;
   gap: .25rem;
   flex-wrap: wrap;
   justify-content: center;

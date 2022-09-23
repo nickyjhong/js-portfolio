@@ -53,6 +53,10 @@ h2 {
   padding: 10px;
 }
 
+.info-title {
+  margin-bottom: .5rem;
+}
+
 .emoji {
   padding-right: 1.5rem;
 }
@@ -94,4 +98,12 @@ h2 {
 
 .arrow {
   font-size: .8rem;
+}
+
+.info-icons {
+  display: flex;
+  margin: .25rem 0;
+  gap: .25rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }

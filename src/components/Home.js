@@ -1,5 +1,16 @@
 import React from 'react'
 import me from '../images/self.png'
+import bootstrap from '../images/bootstrap.png'
+import html from '../images/html.png'
+import css from '../images/css.png';
+import express from '../images/express.png'
+import firebase from '../images/firebase.png'
+import firestore from '../images/firestore.png'
+import nodejs from '../images/nodejs.png'
+import postgresql from '../images/postgresql.png'
+import react from '../images/react.png'
+import redux from '../images/redux.png'
+import js from '../images/js.png'
 
 export default function Home() {
   return (
@@ -10,6 +21,19 @@ export default function Home() {
       <span className='info-container'>
         <h1 className='info-name'>Hi, I'm Nicole</h1>
         <h2 className='info-title'>I'm a Full Stack Developer</h2>
+        <div className="info-icons">
+          <img src={js} alt="js" className="info-icon"/>
+          <img src={react} alt="react" className="info-icon"/>
+          <img src={redux} alt="redux" className="info-icon"/>
+          <img src={express} alt="express" className="info-icon"/>
+          <img src={nodejs} alt="nodejs" className="info-icon"/>
+          <img src={firebase} alt="firebase" className="info-icon"/>
+          <img src={firestore} alt="firestore" className="info-icon"/>
+          <img src={postgresql} alt="postgresql" className="info-icon"/>
+          <img src={html} alt="html" className="info-icon"/>
+          <img src={css} alt="css" className="info-icon"/>
+          <img src={bootstrap} alt="bootstrap" className="info-icon"/>
+        </div>
         <div className="info-mini-bio">
           <div className="info-mini-bio-section">
             <span className="emoji">📌</span> 

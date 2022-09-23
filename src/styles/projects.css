@@ -85,3 +85,13 @@ a {
   font-family: "Roboto", Helvetica, sans-serif;
   color: inherit;
 }
+
+.portfolio-icons {
+  display: flex;
+  margin: .5rem 0;
+  gap: .5rem;
+}
+
+.portfolio-icon {
+  height: 35px;
+}

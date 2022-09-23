@@ -33,7 +33,7 @@
     padding: 0
   }
   .profile-pic-container {
-    padding-top: 0;
+    padding: 0 .25rem .5rem .25rem;
   }
   .terminal-container {
     padding: 0 0 30px 0;
@@ -61,7 +61,6 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    padding: 0;
   }
   .portfolio-btn {
     font-size: .5rem;
@@ -118,6 +117,23 @@
   .projects-container {
     margin-bottom: 2rem;
   }
+  .info-icons {
+    margin: .25rem 0;
+    padding: 0 3rem;
+  }
+  .info-icon {
+    height: 26px;
+  }
+  .socials-container {
+    padding: .5rem 0;
+  }
+  .portfolio-icons {
+    justify-content: center;
+  }
+  .portfolio-icon {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /* Tablet  */
@@ -156,15 +172,18 @@
   .about-container {
     padding: 0 40px 40px 40px;
   }
+  .school-logo-container, .work-logo-container {
+    padding: 0 .65rem 0 1.5rem;
+  }
   .school-logo, .work-logo {
     height: 8vh;
   }
   .school-container, .job-container {
-    padding: .75rem;
+    padding: .25rem;
     margin: 1.25rem 0;
   }
   .school-name, .work-position {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .work-details, .school-details {
     padding: .75rem;
@@ -179,17 +198,28 @@
     justify-content: center;
   }
   .project-container {
-    flex-direction: column
+    flex-direction: column;
   }
   .portfolio-info-container {
     align-items: center;
   }
   .portfolio-title-container {
     text-align: center;
+    margin: .5rem;
+  }
+  .profile-pic-container {
+    padding: .25rem;
+  }
+  .portfolio-icons {
+    justify-content: center;
+  }
+  .portfolio-icon {
+    height: 45px;
+    width: 45px;
   }
 }
 
-@media (min-width: 821px) and (max-width: 1230px) {
+@media (min-width: 821px) and (max-width: 1170px) {
   .home-container {
     display: block;
   }
@@ -260,7 +290,7 @@
   }
 }
 
-@media (min-width: 1231px) {
+@media (min-width: 1171px) {
   nav {
     padding: 30px;
     gap: 30px;
@@ -276,5 +306,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .info-icon {
+    height: 36px;
+    width: 36px;
   }
 }

@@ -43,9 +43,9 @@ const projects = [
     repo: "https://github.com/nickyjhong/baked",
   }, {
     title: "Portfolio",
-    description: "My portfolio that showcases my journey as a software engineer. This project was built using Create React App.",
+    description: "My portfolio that showcases my journey as a software engineer. This project was built using React, JavaScript, HTML, and CSS.",
     pic: portfolio,
-    icons: [react, css],
+    icons: [react, js, html,css],
     website: "https://nicolehong.dev",
     demo: "https://youtu.be/aQ9GMtwl7SE",
     repo: "https://github.com/nickyjhong/portfolio",

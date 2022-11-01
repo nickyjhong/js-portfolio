@@ -31,7 +31,7 @@ const projects = [
     description: "A fitness tracking Progressive Web Application (PWA) that allows users to track how much weight they've lifted in a session, compare it to real-world items, level up, and compete for a spot on the leaderboard. This project was built using JavaScript, React, Redux, Express, Node.js, PostgreSQL, Sequelize, HTML, CSS, and PWA.",
     pic: lift,
     icons: [js, react, redux, express, nodejs, postgresql, sequelize, html, css],
-    website: "https://lift-the-world.herokuapp.com",
+    website: "https://lift-the-world.onrender.com",
     demo: "https://youtu.be/uSbtmAf63vo",
     repo: "https://github.com/2206-capstone-lifters/lift-the-world",
   }, {
@@ -39,7 +39,7 @@ const projects = [
     description: "An e-commerce website that allows guest, returning customers, and admin to buy baked goods. This project was built using JavaScript, React, Redux, Express, Node.js, PostgreSQL, Sequelize, HTML, and CSS.",
     pic: baked,
     icons: [js, react, redux, express, nodejs, postgresql, sequelize, html, css],
-    website: "https://baked-by-fs.herokuapp.com",
+    website: "https://baked.onrender.com/",
     demo: "https://youtu.be/ro3kw9VW-cI",
     repo: "https://github.com/nickyjhong/baked",
   }, {
@@ -55,6 +55,7 @@ const projects = [
     description: "Fullstack Academy's 2206 Junior Phase Final Project (JPFP). A school CRM tool that tracks student information and their associated campuses. This project was built using JavaScript, React, Redux, Express, Node.js, PostgreSQL, Sequelize, HTML, and CSS. Source code is not publicly available but can be shown upon request.",
     pic: jpfp,
     icons: [js, react, redux, express, nodejs, postgresql, sequelize, html, css],
+    website: "",
     demo: "https://youtu.be/4m8kb-hKfTI",
     repo: "https://github.com/nickyjhong/2206-fsa-rm-web-ft-jpfp"
   }
